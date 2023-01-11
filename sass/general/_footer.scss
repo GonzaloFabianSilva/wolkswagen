@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: $secundary;
+    padding: 20px;
+}
+
+
+
+li {
+    font-size: map-get($fuentestamanio, mediano );
+}
+
+.redes-sociales {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+
+    li{
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+        transition: all .4s ease-in-out;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+
+}
+
+
+
+
