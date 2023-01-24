@@ -40,6 +40,28 @@
 
 
 @media (max-width:750px) {
+
+    .imagen{
+        flex-direction: column;
+    }
+
+    .imagen-derecha{
+        flex-direction: column;
+    }
+
+    .preguntas{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .servicios{
+        flex-direction: column;
+    }
+
+    .contrato-mantenimiento{
+        flex-direction: column;
+    }
+    
     footer {
         display: grid;
         flex-direction: column;
